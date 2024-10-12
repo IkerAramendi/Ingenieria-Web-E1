@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar</title>
+    <link rel="stylesheet" href="styleAgregar.css">
+</head>
+<body>
+    <header><h1>AGREGAR EJERCICIO</h1></header>
+    <nav id="navegar">
+        <a href="faq.html"><h2>FAQ</h2></a>
+        <a href="diario.html"><h2>DIARIO</h2></a>
+        <a href="perfil.html"><h2>PERFIL</h2></a>
+    </nav>
+    <main>
+        <label for="ejercicio">SELECCIONA UN EJERCICIO:</label><br>
+        <select name="ejercicio" id="ejercicio">
+            <optgroup label="Pecho">
+                <option>Press de banca</option>
+                <option>Fondos</option>
+                <option>Press con mancuernas</option>
+                <option>Aperturas</option>
+            </optgroup>
+            <optgroup label ="Hombro">
+                <option>Press militar</option>
+                <option>Face Pull</option>
+                <option>Elevaciones laterales</option>
+                <option>Remo al mentón</option>
+            </optgroup>
+            <optgroup label="Espalda">
+                <option>Dominadas</option>
+                <option>Remo barra</option>
+                <option>Remo mancuerna</option>
+                <option>Peso Muerto</option>
+            </optgroup>
+            <optgroup label="Brazo">
+                <option>Curl de bíceps</option>
+                <option>Extensiones de tríceps</option>
+                <option>Press francés</option>
+                <option>Curl martillo</option>
+            </optgroup>
+            <optgroup label="Quadriceps">
+                <option>Sentadilla</option>
+                <option>Extensiones</option>
+                <option>Sentadilla búlgara</option>
+                <option>Prensa</option>
+            </optgroup>
+            <optgroup label="Femoral/Glúteo">
+                <option>Peso muerto rumano</option>
+                <option>Hip thrust</option>
+                <option>Curl femoral</option>
+            </optgroup>
+            <optgroup label="Otros">
+                <option>Cardio</option>
+                <option>Abdominales</option>
+                <option>Descanso</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="number" name="peso" id="peso" placeholder="Peso" required>kg X
+
+        <input type="number" name="series" id="series" placeholder="Series" required> X
+
+        <input type="number" name="repeticiones" id="repeticiones" placeholder="Repeticiones" required>
+        <br><br>
+        <label>OBSERVACIONES:</label><br>
+        <textarea name = "observaciones" placeholder="Observaciones"></textarea>
+        <input type = "submit" value="Agregar">
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <td>Contacto:</td>
+                <td>iker.aramendiopendeusto.es</td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td>944 139 003</td>
+            </tr>
+            <tr>
+                <td>Dirección:</td>
+                <td>Mundaitz Kalea, 50, 20012 Donostia, Gipuzkoa</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

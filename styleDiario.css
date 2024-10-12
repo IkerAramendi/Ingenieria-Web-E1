@@ -1,0 +1,147 @@
+body {
+    background-color: gainsboro;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+
+}
+
+h3{
+    color: #2a6496;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+header#titulo {
+    text-align: center;
+    padding: 20px;
+    background-color: lightskyblue;
+    color: white;
+    margin-bottom: 0px;
+}
+
+h1 {    
+    font-size: 40px;
+}
+
+nav#navegar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2a6496;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#navegar h2,a{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    color: #2a6496;
+    text-align: center;
+}
+
+article{
+    background: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+}
+
+.agregar a{
+    color: white;
+    font-size: 15px;
+    
+}
+
+footer.agregar{
+    background-color: #F67280;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height:50px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 245px;
+}
+
+section{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 4px;
+    width:648px;
+    background-color: white;
+
+}
+
+footer{
+    background-color: #2a6496; 
+    font-weight: bold;
+    color: white;          
+    text-align: left;     
+    padding: 10px;          
+    font-size: 16px;        
+    margin-top: 50px;       
+}
+
+.eliminar{
+    border: 1px solid black;
+    margin: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #F67280;
+    color: white;
+    font-weight: bold;
+}
+
+
+.ejercicio section{
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.peso{
+    margin: auto;
+    margin-right: 140px;color: #000;
+    font-weight: lighter;
+
+}   
+
+p{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:10px;
+}
